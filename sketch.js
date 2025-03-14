@@ -5,7 +5,7 @@ function setup() {
   pixelDensity(1)
   //createCanvas(windowWidth*0.4, windowWidth*0.4);
 
-  let cnv = createCanvas(windowWidth*0.5, windowWidth*0.5);
+  let cnv = createCanvas(windowWidth*0.6, windowWidth*0.6);
       cnv.parent("canvas");
 
   noStroke();
@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  background(245, 250, 250);
+  background(255);
   if (mouseX < width * 0.5 && mouseY < height * 0.5) {
     for (let i = 0; i <= width; i += rectSize) {
       fill(

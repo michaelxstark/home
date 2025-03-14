@@ -9,10 +9,12 @@ html, body {
 }
 
 main {
-  width: 90%;
+  width: 100%;
   max-width: 800px;
   min-height: 90vh; /* Makes sure the content takes at least the full viewport height */
   display: flex;
+  line-height: 2;
+  font-size: 18px;
   flex-direction: column;
   justify-content: space-between; /* Distributes content evenly */
 }
@@ -32,26 +34,26 @@ main {
 
 .first {
   text-align: justify;
-  margin: 20px 20px;
+  margin: 20px 40px;
   margin-bottom: 2%;
 }
 
 .second {
   text-align: center;
-  margin: 20px 20px;
+  margin: 20px 40px;
   margin-bottom: 5%;
 }
 
 /* Ensure text does not go too wide */
 .first, .second {
-  max-width: 600px;
+  max-width: 800px;
   width: 90%;
 }
 
 .note{
-  font-size: 0.85em;
+  font-size: 0.85 em;
   font-style: italic;
-  margin: 20px 0px;
+  margin: 0px 0px;
   text-align: center;
 }
 
@@ -59,7 +61,7 @@ main {
 /* Adjustments for smaller screens */
 @media (max-width: 600px) {
   .first, .second {
-    font-size: 14px;
+    font-size: 18px;
     margin: 15px auto;
   }
 }

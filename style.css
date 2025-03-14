@@ -11,7 +11,7 @@ html, body {
 main {
   width: 90%;
   max-width: 800px;
-  min-height: 80vh; /* Makes sure the content takes at least the full viewport height */
+  min-height: 90vh; /* Makes sure the content takes at least the full viewport height */
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Distributes content evenly */
@@ -49,7 +49,7 @@ main {
 }
 
 .note{
-  font-size: 0.75em;
+  font-size: 0.85em;
   font-style: italic;
   margin: 20px 0px;
   text-align: center;

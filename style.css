@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Futura, sans-serif;
+  height: 100%;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  min-height: 80vh; /* Makes sure the content takes at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distributes content evenly */
+}
+
+.starter{
+  text-align: center;
+  margin: 20px 0px;
+  margin-top: 7.5%;
+  margin-bottom: 2%;
+}
+
+#canvas {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.first {
+  text-align: justify;
+  margin: 20px 20px;
+  margin-bottom: 2%;
+}
+
+.second {
+  text-align: center;
+  margin: 20px 20px;
+  margin-bottom: 5%;
+}
+
+/* Ensure text does not go too wide */
+.first, .second {
+  max-width: 600px;
+  width: 90%;
+}
+
+.note{
+  font-size: 0.75em;
+  font-style: italic;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+  .first, .second {
+    font-size: 14px;
+    margin: 15px auto;
+  }
+}
